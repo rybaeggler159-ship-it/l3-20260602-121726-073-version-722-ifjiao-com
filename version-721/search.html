@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>站内搜索-最新国产剧热播剧集大全</title>
+  <meta name="description" content="通过片名、题材、年份、地区和标签搜索影视内容，进入独立影片详情页。">
+  <meta name="keywords" content="站内搜索,影片搜索,最新国产剧,热播剧集大全,国产剧更新,高清国产剧,热门国产剧,剧集片库,精选国产剧">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body class="search-page-body">
+  <header class="site-header">
+    <div class="site-ribbon">
+      <div class="container">国产电视剧视频免费在线观看 · 热播剧集大全</div>
+    </div>
+    <nav class="site-nav container" aria-label="主导航">
+      <a class="brand" href="./index.html" aria-label="返回首页">
+        <span class="brand-icon">◆</span>
+        <span>
+          <strong>最新国产剧</strong>
+          <em>热播剧集大全</em>
+        </span>
+      </a>
+      <div class="nav-links">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./rankings.html">排行榜</a>
+            <a href="./category-hot-updates.html">近期热播</a>
+            <a href="./category-editor-picks.html">编辑精选</a>
+            <a href="./category-drama-library.html">剧情佳作</a>
+            <a href="./category-suspense-crime.html">悬疑犯罪</a>
+            <a href="./category-romance-life.html">都市情感</a>
+      </div>
+      <form class="nav-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索片名、题材、地区" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="展开菜单">☰</button>
+    </nav>
+    <div class="mobile-panel" data-mobile-panel>
+      <form action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索视频" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./rankings.html">排行榜</a>
+            <a href="./category-hot-updates.html">近期热播</a>
+            <a href="./category-editor-picks.html">编辑精选</a>
+            <a href="./category-drama-library.html">剧情佳作</a>
+            <a href="./category-suspense-crime.html">悬疑犯罪</a>
+            <a href="./category-romance-life.html">都市情感</a>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">SEARCH</span>
+        <h1>站内搜索</h1>
+        <p>输入片名、地区、年份、题材或标签，快速定位影片详情页。</p>
+      </div>
+    </section>
+
+    <section class="section container search-page">
+      <form class="search-panel" action="./search.html" method="get" data-search-form>
+        <input type="search" name="q" placeholder="输入关键词" autocomplete="off" data-search-input>
+        <button type="submit">搜索</button>
+      </form>
+      <div class="section-heading search-heading">
+        <span>RESULTS</span>
+        <h2 data-search-title>搜索结果</h2>
+        <p data-search-summary>请输入关键词浏览匹配内容。</p>
+      </div>
+      <div class="movie-grid" id="search-results"></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand brand-footer" href="./index.html">
+          <span class="brand-icon">◆</span>
+          <span>
+            <strong>最新国产剧</strong>
+            <em>热播剧集大全</em>
+          </span>
+        </a>
+        <p>聚合电影、剧集、综艺、动画等多类型内容，按栏目和热度呈现，方便连续浏览。</p>
+      </div>
+      <div class="footer-links">
+        <strong>频道入口</strong>
+        <a href="./category-hot-updates.html">近期热播</a>
+        <a href="./category-editor-picks.html">编辑精选</a>
+        <a href="./category-drama-library.html">剧情佳作</a>
+        <a href="./category-suspense-crime.html">悬疑犯罪</a>
+        <a href="./category-romance-life.html">都市情感</a>
+        <a href="./category-action-adventure.html">动作冒险</a>
+        <a href="./category-fantasy-sci-fi.html">科幻奇幻</a>
+        <a href="./category-family-comedy.html">喜剧家庭</a>
+        <a href="./category-history-classic.html">历史年代</a>
+        <a href="./category-global-channel.html">海外剧场</a>
+      </div>
+      <div class="footer-links">
+        <strong>快速访问</strong>
+        <a href="./index.html#featured">精选推荐</a>
+        <a href="./index.html#trending">热门推荐</a>
+        <a href="./categories.html">分类总览</a>
+        <a href="./search.html">站内搜索</a>
+      </div>
+    </div>
+    <div class="copyright">© 最新国产剧 · 最新国产剧-热播剧集大全-分类内容持续更新</div>
+  </footer>
+  <script src="./assets/app.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
